@@ -126,13 +126,23 @@ class  Main  extends CI_Controller {
         $this->load->view("main/template/footer");
 
     }
-    public function about(){
+    public function about($type = null){
         $this->load->view("main/template/header",array("page_title"=>"About us"));
         
-        $heroContent = array('image_name'=>"birthdayBanner.jpg",'heading_content'=>"About us");
-        $this->load->view('main/template/hero-banner',$heroContent);
 
-        $this->load->view('main/content/about_new');
+        if($type == "cfti"){
+            $heroContent = array('image_name'=>"birthdayBanner.jpg",'heading_content'=>"About CFTI");
+            $this->load->view('main/template/hero-banner',$heroContent);
+            $this->load->view('main/content/about_cfti');
+        }else if($type == "myschool"){
+            $heroContent = array('image_name'=>"birthdayBanner.jpg",'heading_content'=>"About My School My Pride");
+            $this->load->view('main/template/hero-banner',$heroContent);
+            $this->load->view('main/content/about_myschool');
+        }else{
+            $heroContent = array('image_name'=>"birthdayBanner.jpg",'heading_content'=>"About us");
+            $this->load->view('main/template/hero-banner',$heroContent);
+            $this->load->view('main/content/about_new');
+        }
 
         $this->load->view("main/template/footer");
 

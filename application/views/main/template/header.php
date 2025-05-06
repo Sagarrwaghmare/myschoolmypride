@@ -90,8 +90,8 @@
         </a>
 
         <a href="<?=base_url()?>">
-            <img src="<?=base_url('assets/images/website-images/smiles4birthday_logo.png')?>" alt="cfti logo" 
-            width=220
+            <img src="<?=base_url('assets/images/website-images/MYSCHOOL_LOGO-NOBG.png')?>" alt="cfti logo" 
+            width=80
             class="
             "
             >
@@ -103,10 +103,13 @@
             text-center
         ">
 
-            <li class="my-1 ml-4 text-md  hover:text-[#f5ab35]"> <a href="<?=base_url('about')?>">About Smiles4Birthdays</a> </li>
-            <li class="my-1 ml-4 text-md  hover:text-[#f5ab35]"> <a href="<?=base_url('how')?>">How it works</a> </li>
+            <li class="my-1 ml-4 text-md  hover:text-[#f5ab35]"> <a href="<?=base_url('about/cfti')?>">About CFTI</a> </li>
+            <li class="my-1 ml-4 text-md  hover:text-[#f5ab35]"> <a href="<?=base_url('about/myschool')?>">About My School My Pride</a> </li>
+            <li class="my-1 ml-4 text-md  hover:text-[#f5ab35]"> <a href="<?=base_url('about')?>">Donate a School Kit</a> </li>
+
+            <!-- <li class="my-1 ml-4 text-md  hover:text-[#f5ab35]"> <a href="<?=base_url('how')?>">How it works</a> </li>
             <li class="my-1 ml-4 text-md  hover:text-[#f5ab35]"> <a href="<?=base_url('upcoming')?>">Upcoming Birthdays</a></li>
-            <li class="my-1 ml-4 text-md  hover:text-[#f5ab35]"> <a href="<?=base_url('celebrated')?>">Birthdays Celebrated</a></li>
+            <li class="my-1 ml-4 text-md  hover:text-[#f5ab35]"> <a href="<?=base_url('celebrated')?>">Birthdays Celebrated</a></li> -->
             
             <li class="my-5 sm:my-1 ml-4">            
                 <a href="<?=base_url('donate')?>"

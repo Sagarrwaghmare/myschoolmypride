@@ -72,6 +72,8 @@ $route['profile/(:num)'] = 'main/child/$1';
 
 
 $route['about'] = 'main/about';
+$route['about/(:any)'] = 'main/about/$1';
+
 $route['how'] = 'main/howitworks';
 
 

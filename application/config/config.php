@@ -24,7 +24,7 @@ ini_set('error_reporting', E_ALL & ~E_DEPRECATED);
 |
 */
 // $config['base_url'] = 'https://smiles4birthdays.cftiindia.com/';
-$config['base_url'] = 'http://localhost/project/public_html/';
+$config['base_url'] = 'http://localhost/project/craft/MySchoolMyPride/';
 
 /*
 |--------------------------------------------------------------------------
