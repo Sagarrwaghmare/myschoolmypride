@@ -64,18 +64,15 @@
                             </li>
 
 
-                            <li><i class="icofont icofont-thin-right"></i><a href="<?= base_url('about') ?>">About us</a>
+                            <li><i class="icofont icofont-thin-right"></i><a href="<?= base_url('about/cfti') ?>">About CFTI</a>
+                            </li>
+                            
+                            <li><i class="icofont icofont-thin-right"></i><a href="<?= base_url('about/myschool') ?>">About My School My Pride</a>
                             </li>
 
-                            <li><i class="icofont icofont-thin-right"></i><a href="<?= base_url('how') ?>">How it
-                                    works</a></li>
+                            <li><i class="icofont icofont-thin-right"></i><a href="<?= base_url('how') ?>">How it works</a></li>
 
 
-                            <li><i class="icofont icofont-thin-right"></i><a
-                                    href="<?= base_url('celebrated') ?>">Birthdays Celebrated</a></li>
-
-                            <li><i class="icofont icofont-thin-right"></i><a href="<?= base_url('upcoming') ?>">Upcoming
-                                    Birthdays</a></li>
 
 
                             <li><i class="icofont icofont-thin-right"></i><a href="<?= base_url('donate') ?>">Donate</a>
@@ -135,12 +132,6 @@
                     </div>
                 </div>
                 <!-- column End -->
-
-                <!-- <div class="col-md-3 col-sm-6 w-full md:w-1/3 flex flex-rowm md:flex-col  items-center  space-y-2">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4495.366010304745!2d72.88566186943014!3d18.65783993206758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be87134a827b3ed%3A0xccfaafd4f67e6fcb!2sAlibag-Pen+Rd%2C+Alibag%2C+Maharashtra!5e0!3m2!1sen!2sin!4v1496726793039" width="100%" height="270" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-                    </div> -->
-
-
             </div>
         </div>
     </div>

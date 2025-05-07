@@ -80,22 +80,25 @@
             </div>
     </div>
 
-    <nav class="flex lg:flex-row flex-col items-center justify-between mx-10">
-        <a href="https://cftiindia.com/">
-            <img src="<?=base_url('assets/images/website-images/CFTI_logo.png')?>" alt="cfti logo" 
-            width=152
-            class="
-            "
-            >
-        </a>
+    <nav class="flex lg:flex-row flex-col items-center justify-between mx-10 py-4">
 
-        <a href="<?=base_url()?>">
-            <img src="<?=base_url('assets/images/website-images/MYSCHOOL_LOGO-NOBG.png')?>" alt="cfti logo" 
-            width=80
-            class="
-            "
-            >
-        </a>
+        <div class="flex flex-col lg:flex-row justify-center lg:justify-start lg:space-x-10 items-center w-1/2">
+            <a href="https://cftiindia.com/">
+                <img src="<?=base_url('assets/images/website-images/CFTI_logo.png')?>" alt="cfti logo" 
+                width=152
+                class="
+                "
+                >
+            </a>
+    
+            <a href="<?=base_url()?>">
+                <img src="<?=base_url('assets/images/website-images/MYSCHOOL_LOGO-NOBG.png')?>" alt="cfti logo" 
+                width=100
+                class="
+                "
+                >
+            </a>
+        </div>
         
         <ul class="flex flex-col md:flex-row 
             justify-center items-center
@@ -111,12 +114,12 @@
             <li class="my-1 ml-4 text-md  hover:text-[#f5ab35]"> <a href="<?=base_url('upcoming')?>">Upcoming Birthdays</a></li>
             <li class="my-1 ml-4 text-md  hover:text-[#f5ab35]"> <a href="<?=base_url('celebrated')?>">Birthdays Celebrated</a></li> -->
             
-            <li class="my-5 sm:my-1 ml-4">            
+            <!-- <li class="my-5 sm:my-1 ml-4">            
                 <a href="<?=base_url('donate')?>"
                 class="donate-btn bg-[#f5ab35] text-white 
                 py-3  rounded-[5px] w-[120px] inline-block
                 ">Donate Now</a>
-            </li>
+            </li> -->
         </ul>
     </nav>
 
